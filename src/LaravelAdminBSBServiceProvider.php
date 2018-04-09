@@ -35,6 +35,7 @@ class LaravelAdminBSBServiceProvider extends ServiceProvider
       Blade::component('adminbsb::_components.form.inputs.spinner', 'spinner');
       Blade::component('adminbsb::_components.form.inputs.image', 'image');
       Blade::component('adminbsb::_components.form.inputs.textarea', 'textarea');
+      Blade::component('adminbsb::_components.form.inputs.editor', 'editor');
 
       Blade::component('adminbsb::_components.form.form', 'form');
       Blade::component('adminbsb::_components.form.translations', 'translations');
@@ -50,7 +51,7 @@ class LaravelAdminBSBServiceProvider extends ServiceProvider
       Blade::component('adminbsb::_components.ui.tab.nav-tabs-item', 'navtabsitem');
       Blade::component('adminbsb::_components.ui.tab.tab-content', 'tabcontent');
       Blade::component('adminbsb::_components.ui.tab.tab-content-item', 'tabcontentitem');
-      Blade::component('adminbsb::_components.ui.modal', 'modal');    
+      Blade::component('adminbsb::_components.ui.modal', 'modal');
 
     }
 

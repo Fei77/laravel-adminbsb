@@ -33,6 +33,15 @@
           @endinput
         @endif
 
+        @if ($field['type'] === 'editor')
+          @editor([
+            'label' => (isset($field['label']) ? $field['label'] : ''),
+            'name' => $lang.'['.$field['name'].']',
+            'value' => isset($translations) && $translations->hasTranslation($lang) ? $translations->translate($lang)[$field['name']] : old('translations.'.$lang.'.'.$field['name'])
+          ])
+          @endeditor
+        @endif
+
       @endforeach
 
 
