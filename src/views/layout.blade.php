@@ -180,7 +180,7 @@
   {{-- <script src="{{ asset('vendor/adminbsb/plugins/jquery-fileupload/jquery.fileupload.js') }}"></script> --}}
 
   <!-- Moment Plugin Js -->
-  {{-- <script src="{{ asset('vendor/adminbsb/plugins/momentjs/moment.js') }}"></script> --}}
+  <script src="{{ asset('vendor/adminbsb/plugins/momentjs/moment.js') }}"></script>
 
   <!-- Bootstrap Material Datetime Picker Plugin Js -->
   <script src="{{ asset('vendor/adminbsb/plugins/bootstrap-material-datetimepicker/js/bootstrap-material-datetimepicker.js') }}"></script>
@@ -209,8 +209,8 @@
   <script src="{{ asset('vendor/adminbsb/js/admin.js') }}"></script>
   <script src="{{ asset('vendor/adminbsb/js/pages/index.js') }}"></script>
   <script src="{{ asset('vendor/adminbsb/js/text-editor.js') }}"></script>
-  {{-- <script src="{{ asset('vendor/adminbsb/js/alert.js') }}"></script>
-  <script src="{{ asset('vendor/adminbsb/js/helpers.js') }}"></script>
+  <script src="{{ asset('vendor/adminbsb/js/alert.js') }}"></script>
+  {{-- <script src="{{ asset('vendor/adminbsb/js/helpers.js') }}"></script>
   <script src="{{ asset('vendor/adminbsb/js/ajax-form.js') }}"></script>
   <script src="{{ asset('vendor/adminbsb/js/image-cropper.js') }}"></script>
   <script src="{{ asset('vendor/adminbsb/js/sortable.js') }}"></script>
