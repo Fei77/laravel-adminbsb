@@ -1,6 +1,6 @@
 <form
   action="{{ $action or '' }}"
-  class="{{ isset($js) ? 'js-ajax-form' : '' }}"
+  class="{{ $class or '' }}"
   method="{{ isset($method) && strtolower($method) === 'get' ? $method : 'POST' }}"
   {{ isset($files) ? 'enctype="multipart/form-data"' : ''}}>
 
