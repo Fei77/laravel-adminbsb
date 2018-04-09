@@ -36,6 +36,7 @@ class LaravelAdminBSBServiceProvider extends ServiceProvider
       Blade::component('adminbsb::_components.form.inputs.image', 'image');
       Blade::component('adminbsb::_components.form.inputs.textarea', 'textarea');
       Blade::component('adminbsb::_components.form.inputs.editor', 'editor');
+      Blade::component('adminbsb::_components.form.inputs.color', 'color');
 
       Blade::component('adminbsb::_components.form.form', 'form');
       Blade::component('adminbsb::_components.form.translations', 'translations');

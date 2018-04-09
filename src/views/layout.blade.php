@@ -210,6 +210,7 @@
   <script src="{{ asset('vendor/adminbsb/js/pages/index.js') }}"></script>
   <script src="{{ asset('vendor/adminbsb/js/text-editor.js') }}"></script>
   <script src="{{ asset('vendor/adminbsb/js/alert.js') }}"></script>
+  <script src="{{ asset('vendor/adminbsb/js/colorpicker.js') }}"></script>
   {{-- <script src="{{ asset('vendor/adminbsb/js/helpers.js') }}"></script>
   <script src="{{ asset('vendor/adminbsb/js/ajax-form.js') }}"></script>
   <script src="{{ asset('vendor/adminbsb/js/image-cropper.js') }}"></script>
@@ -219,7 +220,6 @@
   <script src="{{ asset('vendor/adminbsb/js/dropzone.js') }}"></script>
   <script src="{{ asset('vendor/adminbsb/js/album.js') }}"></script>
   <script src="{{ asset('vendor/adminbsb/js/list.js') }}"></script>
-  <script src="{{ asset('vendor/adminbsb/js/colorpicker.js') }}"></script>
   <script src="{{ asset('vendor/adminbsb/js/date-time-picker.js') }}"></script>
   <script src="{{ asset('vendor/adminbsb/js/input-image.js') }}"></script> --}}
 
