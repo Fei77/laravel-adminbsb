@@ -44,14 +44,14 @@
   <link href="{{ asset('vendor/adminbsb/plugins/morrisjs/morris.css') }}" rel="stylesheet" />
 
   <!-- Dropzone Css -->
-  <link href="{{ asset('vendor/adminbsb/plugins/dropzone/dropzone.css') }}" rel="stylesheet">
+  {{-- <link href="{{ asset('vendor/adminbsb/plugins/dropzone/dropzone.css') }}" rel="stylesheet"> --}}
 
   <!-- Bootstrap Spinner Css -->
   <link href="{{ asset('vendor/adminbsb/plugins/jquery-spinner/css/bootstrap-spinner.css') }}" rel="stylesheet">
 
   <!-- DataTables -->
-  <link href="{{ asset('vendor/adminbsb/plugins/jquery-datatable/skin/bootstrap/css/dataTables.bootstrap.css') }}" rel="stylesheet">
-  <link href="{{ asset('vendor/adminbsb/plugins/jquery-datatable/skin/bootstrap/css/responsive.bootstrap.min.css') }}" rel="stylesheet">
+  {{-- <link href="{{ asset('vendor/adminbsb/plugins/jquery-datatable/skin/bootstrap/css/dataTables.bootstrap.css') }}" rel="stylesheet"> --}}
+  {{-- <link href="{{ asset('vendor/adminbsb/plugins/jquery-datatable/skin/bootstrap/css/responsive.bootstrap.min.css') }}" rel="stylesheet"> --}}
 
   <!-- Sweetalert Css -->
   <link href="{{ asset('vendor/adminbsb/plugins/sweetalert/sweetalert.css') }}" rel="stylesheet" />
@@ -60,14 +60,14 @@
   <link href="{{ asset('vendor/adminbsb/plugins/waitme/waitMe.css') }}" rel="stylesheet" />
 
   <!-- Range Slider Css -->
-  <link href="{{ asset('vendor/adminbsb/plugins/ion-rangeslider/css/ion.rangeSlider.css') }}" rel="stylesheet" />
-  <link href="{{ asset('vendor/adminbsb/plugins/ion-rangeslider/css/ion.rangeSlider.skinFlat.css') }}" rel="stylesheet" />
+  {{-- <link href="{{ asset('vendor/adminbsb/plugins/ion-rangeslider/css/ion.rangeSlider.css') }}" rel="stylesheet" /> --}}
+  {{-- <link href="{{ asset('vendor/adminbsb/plugins/ion-rangeslider/css/ion.rangeSlider.skinFlat.css') }}" rel="stylesheet" /> --}}
 
   <!-- Loading.css -->
   <link href="{{ asset('vendor/adminbsb/plugins/loading/loading.css') }}" rel="stylesheet" />
 
   <!-- Jquery Fileupload css -->
-  <link href="{{ asset('vendor/adminbsb/plugins/jquery-fileupload/jquery.fileupload.css') }}" rel="stylesheet" />
+  {{-- <link href="{{ asset('vendor/adminbsb/plugins/jquery-fileupload/jquery.fileupload.css') }}" rel="stylesheet" /> --}}
 
   <!-- Bootstrap Tags Input -->
   <link href="{{ asset('vendor/adminbsb/plugins/bootstrap-tagsinput/bootstrap-tagsinput.css') }}" rel="stylesheet" />
@@ -140,7 +140,7 @@
   <script src="{{ asset('vendor/adminbsb/plugins/morrisjs/morris.js') }}"></script>
 
   <!-- ChartJs -->
-  <script src="{{ asset('vendor/adminbsb/plugins/chartjs/Chart.bundle.js') }}"></script>
+  {{-- <script src="{{ asset('vendor/adminbsb/plugins/chartjs/Chart.bundle.js') }}"></script> --}}
 
   <!-- Cropit  -->
   <script src="{{ asset('vendor/adminbsb/plugins/cropit/jquery.cropit.js') }}"></script>
@@ -152,7 +152,7 @@
   <script src="{{ asset('vendor/adminbsb/plugins/bootstrap-notify/bootstrap-notify.js') }}"></script>
 
   <!-- Sparkline Chart Plugin Js -->
-  <script src="{{ asset('vendor/adminbsb/plugins/jquery-sparkline/jquery.sparkline.js') }}"></script>
+  {{-- <script src="{{ asset('vendor/adminbsb/plugins/jquery-sparkline/jquery.sparkline.js') }}"></script> --}}
 
   <!-- TinyMCE -->
   <script src="{{ asset('vendor/adminbsb/plugins/tinymce/tinymce.js') }}"></script>
@@ -162,7 +162,7 @@
   <script src="{{ asset('vendor/adminbsb/plugins/sweetalert/sweetalert.min.js') }}"></script>
 
   <!-- Dropzone Plugin Js -->
-  <script src="{{ asset('vendor/adminbsb/plugins/dropzone/dropzone.js') }}"></script>
+  {{-- <script src="{{ asset('vendor/adminbsb/plugins/dropzone/dropzone.js') }}"></script> --}}
 
   <!-- Jquery Spinner Plugin Js -->
   <script src="{{ asset('vendor/adminbsb/plugins/jquery-spinner/js/jquery.spinner.js') }}"></script>
@@ -174,13 +174,13 @@
   <script src="{{ asset('vendor/adminbsb/plugins/bootstrap-tagsinput/bootstrap-tagsinput.js') }}"></script>
 
   <!-- RangeSlider Plugin Js -->
-  <script src="{{ asset('vendor/adminbsb/plugins/ion-rangeslider/js/ion.rangeSlider.js') }}"></script>
+  {{-- <script src="{{ asset('vendor/adminbsb/plugins/ion-rangeslider/js/ion.rangeSlider.js') }}"></script> --}}
 
   <!-- Jquery Fileuplaod Js -->
-  <script src="{{ asset('vendor/adminbsb/plugins/jquery-fileupload/jquery.fileupload.js') }}"></script>
+  {{-- <script src="{{ asset('vendor/adminbsb/plugins/jquery-fileupload/jquery.fileupload.js') }}"></script> --}}
 
   <!-- Moment Plugin Js -->
-  <script src="{{ asset('vendor/adminbsb/plugins/momentjs/moment.js') }}"></script>
+  {{-- <script src="{{ asset('vendor/adminbsb/plugins/momentjs/moment.js') }}"></script> --}}
 
   <!-- Bootstrap Material Datetime Picker Plugin Js -->
   <script src="{{ asset('vendor/adminbsb/plugins/bootstrap-material-datetimepicker/js/bootstrap-material-datetimepicker.js') }}"></script>

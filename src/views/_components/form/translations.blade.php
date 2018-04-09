@@ -18,7 +18,7 @@
         @if ($field['type'] === 'textarea')
           @textarea([
             'label' => (isset($field['label']) ? $field['label'] : ''),
-            'name' => $lang.'['.$field['name'].']',
+            'name' => 'translations['.$lang.']['.$field['name'].']',
             'value' => isset($translations) && $translations->hasTranslation($lang) ? $translations->translate($lang)[$field['name']] : old('translations.'.$lang.'.'.$field['name'])
           ])
           @endtextarea
@@ -27,7 +27,7 @@
         @if ($field['type'] === 'text')
           @input([
             'label' => (isset($field['label']) ? $field['label'] : ''),
-            'name' => $lang.'['.$field['name'].']',
+            'name' => 'translations['.$lang.']['.$field['name'].']',
             'value' => isset($translations) && $translations->hasTranslation($lang) ? $translations->translate($lang)[$field['name']] : old('translations.'.$lang.'.'.$field['name'])
           ])
           @endinput
@@ -36,7 +36,7 @@
         @if ($field['type'] === 'editor')
           @editor([
             'label' => (isset($field['label']) ? $field['label'] : ''),
-            'name' => $lang.'['.$field['name'].']',
+            'name' => 'translations['.$lang.']['.$field['name'].']',
             'value' => isset($translations) && $translations->hasTranslation($lang) ? $translations->translate($lang)[$field['name']] : old('translations.'.$lang.'.'.$field['name'])
           ])
           @endeditor
