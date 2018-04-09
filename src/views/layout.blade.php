@@ -81,7 +81,7 @@
   <!-- Custom Css -->
   <link href="{{ asset('vendor/adminbsb/css/style.css') }}" rel="stylesheet">
   <link href="{{ asset('vendor/adminbsb/css/helpers.css') }}" rel="stylesheet">
-  <link href="{{ asset('vendor/adminbsb/css/sortable.css') }}" rel="stylesheet">
+  {{-- <link href="{{ asset('vendor/adminbsb/css/sortable.css') }}" rel="stylesheet"> --}}
   {{-- <link href="{{ asset('vendor/adminbsb/css/image-cropper.css') }}" rel="stylesheet">
   <link href="{{ asset('vendor/adminbsb/css/removable-input.css') }}" rel="stylesheet">
   <link href="{{ asset('vendor/adminbsb/css/overrides.css') }}" rel="stylesheet">
@@ -208,10 +208,10 @@
   <!-- Custom Js -->
   <script src="{{ asset('vendor/adminbsb/js/admin.js') }}"></script>
   <script src="{{ asset('vendor/adminbsb/js/pages/index.js') }}"></script>
+  <script src="{{ asset('vendor/adminbsb/js/text-editor.js') }}"></script>
   {{-- <script src="{{ asset('vendor/adminbsb/js/alert.js') }}"></script>
   <script src="{{ asset('vendor/adminbsb/js/helpers.js') }}"></script>
   <script src="{{ asset('vendor/adminbsb/js/ajax-form.js') }}"></script>
-  <script src="{{ asset('vendor/adminbsb/js/text-editor.js') }}"></script>
   <script src="{{ asset('vendor/adminbsb/js/image-cropper.js') }}"></script>
   <script src="{{ asset('vendor/adminbsb/js/sortable.js') }}"></script>
   <script src="{{ asset('vendor/adminbsb/js/dialog.js') }}"></script>
