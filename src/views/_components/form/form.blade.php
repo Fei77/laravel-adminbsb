@@ -9,7 +9,7 @@
 
   {{ $slot }}
 
-  <button class="btn btn-sm btn-warning">
+  <button type="submit" class="btn btn-sm btn-warning">
     Submit
   </button>
 
