@@ -1,0 +1,23 @@
+.js-removable-input {
+  position: relative;
+  transition-duration: 300ms;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+}
+.js-removable-input i.js-removable-input-trigger {
+  position: absolute;
+  right: 0;
+  top: 10px;
+  opacity: 0;
+  transition-duration: 300ms;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+}
+.js-removable-input:hover:not(:first-child) i {
+  opacity: 1;
+  right: 15px;
+}
+.js-removable-input:hover i:hover {
+  color: red;
+  cursor: pointer;
+}

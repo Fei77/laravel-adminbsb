@@ -1,0 +1,59 @@
+.sortable-wrapper ol.sortable {
+  list-style: none;
+  padding-left: 0;
+}
+.sortable-wrapper ol.sortable li.sortable-item {
+  border: 1px solid #eee;
+  padding: 5px;
+}
+.sortable-wrapper ol.sortable li.sortable-item .item-wrapper {
+  display: inline-flex;
+  align-items: center;
+  width: 100%;
+}
+.sortable-wrapper ol.sortable li.sortable-item .item-wrapper img {
+  height: 90px;
+  width: 200px;
+  object-fit: cover;
+}
+@media (max-width: 576px) {
+  .sortable-wrapper ol.sortable li.sortable-item .item-wrapper img {
+    height: 45px;
+    width: 100px;
+  }
+}
+.sortable-wrapper ol.sortable li.sortable-item .item-wrapper .caption {
+  overflow: hidden;
+  max-height: 75px;
+  margin-left: 20px;
+}
+.sortable-wrapper ol.sortable li.sortable-item .item-wrapper .caption h5 {
+  text-transform: capitalize;
+}
+@media (max-width: 768px) {
+  .sortable-wrapper ol.sortable li.sortable-item .item-wrapper .caption h5 {
+    font-size: 16px;
+  }
+  .sortable-wrapper ol.sortable li.sortable-item .item-wrapper .caption p {
+    font-size: 14px;
+  }
+}
+@media (max-width: 576px) {
+  .sortable-wrapper ol.sortable li.sortable-item .item-wrapper .caption h5 {
+    display: none;
+  }
+  .sortable-wrapper ol.sortable li.sortable-item .item-wrapper .caption p {
+    display: none;
+  }
+}
+.sortable-wrapper ol.sortable li.sortable-item .item-wrapper .controls {
+  margin-left: auto;
+  min-width: 70px;
+  padding-left: 20px;
+}
+.sortable-wrapper ol.sortable li.sortable-item:hover {
+  cursor: move;
+}
+.sortable-wrapper ol.sortable li.sortable-item:hover .card {
+  cursor: default;
+}

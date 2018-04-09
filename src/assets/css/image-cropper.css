@@ -1,0 +1,12 @@
+.image-cropper .cropit-controls {
+  display: inline-flex;
+  width: 100%;
+  margin: 20px 0;
+}
+.image-cropper .cropit-controls input {
+  width: 100%;
+  margin: 0 10px;
+}
+.image-cropper .cropit-controls i:hover {
+  cursor: pointer;
+}
