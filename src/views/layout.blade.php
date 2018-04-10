@@ -142,9 +142,6 @@
   <!-- ChartJs -->
   {{-- <script src="{{ asset('vendor/adminbsb/plugins/chartjs/Chart.bundle.js') }}"></script> --}}
 
-  <!-- Cropit  -->
-  <script src="{{ asset('vendor/adminbsb/plugins/cropit/jquery.cropit.js') }}"></script>
-
   <!-- Sortablejs  -->
   <script src="{{ asset('vendor/adminbsb/plugins/sortablejs/sortable.min.js') }}"></script>
 

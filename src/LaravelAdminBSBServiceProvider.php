@@ -42,9 +42,6 @@ class LaravelAdminBSBServiceProvider extends ServiceProvider
       Blade::component('adminbsb::_components.form.translations', 'translations');
 
       // UI
-      Blade::component('adminbsb::_components.ui.sortable.sortable', 'sortable');
-      Blade::component('adminbsb::_components.ui.sortable.item', 'sortableitem');
-
       Blade::component('adminbsb::_components.ui.collapse.collapse', 'collapse');
       Blade::component('adminbsb::_components.ui.collapse.collapse-item', 'collapseitem');
 
