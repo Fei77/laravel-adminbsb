@@ -9,8 +9,13 @@
 
   {{ $slot }}
 
-  <button type="submit" class="btn btn-sm btn-warning">
-    Submit
-  </button>
-
+  @if (isset($sumbit) && $submit === true)
+    <button type="submit" class="btn btn-sm btn-warning">
+      {{ $submit or 'Submit'}}
+    </button>
+  @else
+    <button type="submit" class="btn btn-sm btn-warning">
+      <i class="material-icons">save</i> Submit
+    </button>
+  @endif
 </form>
